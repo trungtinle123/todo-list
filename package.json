@@ -1,0 +1,17 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch ./todolist/static/assets/styles/scss/global.scss ./todolist/static/assets/styles/css/global.css",
+    "serve": "python ./manage.py runserver 9000",
+    "start": "npm run serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
